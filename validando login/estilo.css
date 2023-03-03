@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(28, 46, 51);
+    padding-top: 0;
+    padding-left: 40px;
+    text-align: center;
+    font: normal 20pt arial;
+
+
+}
+header{
+    color: white;
+    font-size: 20px;
+    
+}
+
+
+
+section {
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.361);
+    width: 50%;
+  margin:255px;
+ margin-top: auto;
+    border-radius: 10px;
+    background: white;
+    content:none;
+
+}
+
+div {
+    text-align: center;
+    padding-top: 20px;
+    padding: 7px;
+}
+footer{
+    color: white;
+}
+input{
+    color: blue;
+    font-size: large;
+}

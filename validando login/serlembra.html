@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"
+        content="IE=edge">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="estilo.css">
+
+    <title>Docvendo ser me lembro dos comando ainda!!</title>
+   
+</head>
+
+<body>
+
+    <header>
+        <h1>Validando Login</h1>
+
+    </header>
+    <section>
+        <div>
+            digite seu nome : <input type="text"
+                name="nome"
+                id="nome"><br>
+            digite sua senha : <input type="number"
+                name="senha"
+                id="senha"><br><br>
+            <input type="button"
+                value="ENTRAR"
+                onclick="entrar()">
+
+        </div>
+        <div id="res">
+            <p>seus dados aparecerá aqui</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy;praticando</p>
+    </footer>
+
+
+
+    <script>
+        function entrar() {
+            var nome = window.document.getElementById('nome')
+            var senha = window.document.getElementById('senha')
+            var password = Number(senha.value)
+            var noni = (nome.value)
+            //res.innerHTML = `seu nome é <strong>${noni}</strong> é sua senha é  <strong>${password}</strong> `
+
+            if (password == 123 && noni == 'leonardo'){
+                res.innerHTML = `seu usúario esta correto com a Senha :  <strong>${password}</strong> é Nome:  <strong>${noni}</strong`
+            }else {
+                res.innerHTML = '<strong>senha inválida tente novamente!!!</strong'
+            }
+
+        }
+
+    </script>
+
+</body>
+
+</html>
